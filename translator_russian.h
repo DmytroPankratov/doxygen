@@ -31,7 +31,7 @@ class TranslatorRussian : public TranslatorAdapter_1_8_15
   public:
     /*! Used for identification of the language. */
     virtual QCString idLanguage()
-    { return "russian"; }
+    { return "russian"; } 
 
     /* Used to get the command(s) for the language support. */
     virtual QCString latexLanguageSupportCommand()
